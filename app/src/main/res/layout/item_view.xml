@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center" />
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="something here"/>
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/answer_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A"/>
+        <RadioButton
+            android:id="@+id/answer_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="B"/>
+        <RadioButton
+            android:id="@+id/answer_three"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="C"/>
+        <RadioButton
+            android:id="@+id/answer_four"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="D"/>
+
+
+    </RadioGroup>
+</LinearLayout>
